@@ -18,7 +18,7 @@ function App() {
   return (
     <Container className="mt-3">
       <Row>
-        <h1 className="text-center">Jadwal Imsyakiyah Temanggung 2022</h1>
+        <h1 className="text-center">Jadwal Imsakiyah Temanggung 2022</h1>
         <Col md="{12}">
           <Card className="border-0 rounded shadow-sm">
             <Card.Body>
