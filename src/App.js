@@ -19,7 +19,7 @@ function App() {
     <Container className="mt-3">
       <h1 className="text-center">Jadwal</h1>
       <h1 className="text-center">Imsakiyah</h1>
-      <h1 className="text-center">Kota Temanggung 1443 H/2022 M</h1>
+      <h1 className="text-center">Kota Temanggung</h1>
       <h1 className="text-center"> Ramadhan 1443 H/2022 M</h1>
       <Row>
         <Col md="{12}">
