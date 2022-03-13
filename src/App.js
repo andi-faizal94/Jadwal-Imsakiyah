@@ -18,8 +18,8 @@ function App() {
   return (
     <Container className="mt-3">
       <Row>
-        <h1 className="text-center">Jadwal Imsakiyah Temanggung 2022</h1>
         <Col md="{12}">
+          <h1 className="text-center">Jadwal Imsakiyah Temanggung 2022</h1>
           <Card className="border-0 rounded shadow-sm">
             <Card.Body>
               <Table striped bordered hover className="mb-1">
@@ -29,8 +29,8 @@ function App() {
                     <th>Tanggal</th>
                     <th>Imsyak</th>
                     <th>Terbit</th>
-                    <th>Dhuha</th>
                     <th>Subuh</th>
+                    <th>Dhuha</th>
                     <th>Dzuhur</th>
                     <th>Ashar</th>
                     <th>Maghrib</th>
