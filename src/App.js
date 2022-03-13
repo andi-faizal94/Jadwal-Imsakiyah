@@ -44,8 +44,8 @@ function App() {
                       <td className="text-left">{tim.date}</td>
                       <td className="text-center">{tim.imsak}</td>
                       <td className="text-center">{tim.syuruk}</td>
-                      <td className="text-center">{tim.dhuha}</td>
                       <td className="text-center">{tim.subuh}</td>
+                      <td className="text-center">{tim.dhuha}</td>
                       <td className="text-center">{tim.dzuhur}</td>
                       <td className="text-center">{tim.ashar}</td>
                       <td className="text-center">{tim.maghrib}</td>
