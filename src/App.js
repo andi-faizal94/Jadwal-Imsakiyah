@@ -16,37 +16,39 @@ function App() {
       });
   }, []);
   return (
-    <Container className="mt-3">
+    <Container className="mt-4">
       <h1 className="text-center">Jadwal</h1>
       <h1 className="text-center">Imsakiyah</h1>
       <h1 className="text-center">Kota Temanggung</h1>
       <h1 className="text-center"> Ramadhan 1443 H/2022 M</h1>
-      <Row>
+      <Row className="mt-2">
         <Col md="{12}">
           <Card className="border-0 rounded shadow-sm">
             <Card.Body>
-              <Table responsive="sm" striped bordered hover className="mb-1">
-                <thead>
+              <Table responsive="sm" striped bordered hover className="mb-2">
+                <thead className="mb-2">
                   <tr>
-                    <th>No.</th>
-                    <th>Ramadhan</th>
-                    <th>Tanggal</th>
-                    <th>Imsyak</th>
-                    <th>Terbit</th>
-                    <th>Subuh</th>
-                    <th>Dhuha</th>
-                    <th>Dzuhur</th>
-                    <th>Ashar</th>
-                    <th>Maghrib</th>
-                    <th>Isya</th>
+                    <th className="text-center">No.</th>
+                    <th className="text-center">Ramadhan</th>
+                    <th className="text-center">Tanggal</th>
+                    <th className="text-center">Imsyak</th>
+                    <th className="text-center">Terbit</th>
+                    <th className="text-center">Subuh</th>
+                    <th className="text-center">Dhuha</th>
+                    <th className="text-center">Dzuhur</th>
+                    <th className="text-center">Ashar</th>
+                    <th className="text-center">Maghrib</th>
+                    <th className="text-center">Isya</th>
                   </tr>
                 </thead>
                 <tbody>
                   {times.map((time, index) => (
                     <tr key={time.id}>
-                      <td>{index + 1}</td>
-                      <td>{index + 1} Ramadhan 1443 H</td>
-                      <td className="text-left">{time.date}</td>
+                      <td className="text-center">{index + 1}</td>
+                      <td className="text-center">
+                        {index + 1} Ramadhan 1443 H
+                      </td>
+                      <td className="text-center">{time.date}</td>
                       <td className="text-center">{time.imsak}</td>
                       <td className="text-center">{time.syuruk}</td>
                       <td className="text-center">{time.subuh}</td>
