@@ -3,7 +3,7 @@ import axios from "axios";
 import { Card, Container, Row, Col, Table } from "react-bootstrap";
 
 function App() {
-  const [time, setTime] = useState([]);
+  const [times, setTimes] = useState([]);
 
   useEffect(() => {
     axios
@@ -12,7 +12,7 @@ function App() {
       )
       .then((response) => {
         console.log(response.data.data);
-        setTime(response.data.data);
+        setTimes(response.data.data);
       });
   }, []);
   return (
@@ -40,18 +40,18 @@ function App() {
                   </tr>
                 </thead>
                 <tbody>
-                  {time.map((tim, index) => (
-                    <tr key={tim.id}>
+                  {times.map((time, index) => (
+                    <tr key={time.id}>
                       <td>{index + 1}</td>
-                      <td className="text-left">{tim.date}</td>
-                      <td className="text-center">{tim.imsak}</td>
-                      <td className="text-center">{tim.syuruk}</td>
-                      <td className="text-center">{tim.subuh}</td>
-                      <td className="text-center">{tim.dhuha}</td>
-                      <td className="text-center">{tim.dzuhur}</td>
-                      <td className="text-center">{tim.ashar}</td>
-                      <td className="text-center">{tim.maghrib}</td>
-                      <td className="text-center">{tim.isya}</td>
+                      <td className="text-left">{time.date}</td>
+                      <td className="text-center">{time.imsak}</td>
+                      <td className="text-center">{time.syuruk}</td>
+                      <td className="text-center">{time.subuh}</td>
+                      <td className="text-center">{time.dhuha}</td>
+                      <td className="text-center">{time.dzuhur}</td>
+                      <td className="text-center">{time.ashar}</td>
+                      <td className="text-center">{time.maghrib}</td>
+                      <td className="text-center">{time.isya}</td>
                     </tr>
                   ))}
                 </tbody>
