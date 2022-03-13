@@ -19,8 +19,10 @@ function App() {
     <Container className="mt-3">
       <Row>
         <Col md="{12}">
-          <h1 className="text-center">Jadwal Imsakiyah</h1>
-          <h1 className="text-center"> Temanggung 1443 H/2022 M</h1>
+          <h1 className="text-center">Jadwal </h1>
+          <h1 className="text-center">Imsakiyah</h1>
+          <h1 className="text-center"> Untuk Kota Temanggung 1443 H/2022 M</h1>
+          <h1 className="text-center"> Ramadhan 1443 H/2022 M</h1>
           <Card className="border-0 rounded shadow-sm">
             <Card.Body>
               <Table striped bordered hover className="mb-1">
