@@ -28,6 +28,7 @@ function App() {
                 <thead>
                   <tr>
                     <th>No.</th>
+                    <th>Ramadhan</th>
                     <th>Tanggal</th>
                     <th>Imsyak</th>
                     <th>Terbit</th>
@@ -43,6 +44,7 @@ function App() {
                   {times.map((time, index) => (
                     <tr key={time.id}>
                       <td>{index + 1}</td>
+                      <td>{index + 1} Ramadhan 1443 H</td>
                       <td className="text-left">{time.date}</td>
                       <td className="text-center">{time.imsak}</td>
                       <td className="text-center">{time.syuruk}</td>
