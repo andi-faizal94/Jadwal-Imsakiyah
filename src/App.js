@@ -17,15 +17,15 @@ function App() {
   }, []);
   return (
     <Container className="mt-3">
+      <h1 className="text-center">Jadwal</h1>
+      <h1 className="text-center">Imsakiyah</h1>
+      <h1 className="text-center">Kota Temanggung 1443 H/2022 M</h1>
+      <h1 className="text-center"> Ramadhan 1443 H/2022 M</h1>
       <Row>
         <Col md="{12}">
-          <h1 className="text-center">Jadwal </h1>
-          <h1 className="text-center">Imsakiyah</h1>
-          <h1 className="text-center"> Untuk Kota Temanggung 1443 H/2022 M</h1>
-          <h1 className="text-center"> Ramadhan 1443 H/2022 M</h1>
           <Card className="border-0 rounded shadow-sm">
             <Card.Body>
-              <Table striped bordered hover className="mb-1">
+              <Table responsive="sm" striped bordered hover className="mb-1">
                 <thead>
                   <tr>
                     <th>No.</th>
