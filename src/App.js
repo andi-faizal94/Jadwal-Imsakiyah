@@ -36,8 +36,8 @@ function App() {
                     <th className="text-center">Ramadhan</th>
                     <th className="text-center">Tanggal</th>
                     <th className="text-center">Imsyak</th>
-                    <th className="text-center">Terbit</th>
                     <th className="text-center">Subuh</th>
+                    <th className="text-center">Terbit</th>
                     <th className="text-center">Dhuha</th>
                     <th className="text-center">Dzuhur</th>
                     <th className="text-center">Ashar</th>
@@ -54,8 +54,8 @@ function App() {
                       </td>
                       <td className="text-center">{time.date}</td>
                       <td className="text-center">{time.imsak}</td>
-                      <td className="text-center">{time.syuruk}</td>
                       <td className="text-center">{time.subuh}</td>
+                      <td className="text-center">{time.syuruk}</td>
                       <td className="text-center">{time.dhuha}</td>
                       <td className="text-center">{time.dzuhur}</td>
                       <td className="text-center">{time.ashar}</td>
