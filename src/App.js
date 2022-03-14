@@ -27,9 +27,9 @@ function App() {
       </div>
       <Row className="mt-2 mb-2">
         <Col md="{12}">
-          <Card className="border-0 rounded shadow-sm mb-4">
-            <Card.Body className="mb-4">
-              <Table responsive striped bordered hover className="table mb-2">
+          <Card className="mb-4 border-0 rounded shadow-sm">
+            <Card.Body className="mb-1">
+              <Table responsive striped bordered hover className="table">
                 <thead className="mb-2 table-success">
                   <tr>
                     <th className="text-center">No.</th>
