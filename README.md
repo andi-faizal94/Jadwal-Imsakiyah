@@ -2,7 +2,7 @@
 
 Credit :
 
-Restapi :https://imsakiyah-api.santrikoding.com/?fbclid=IwAR2xkS3e3CyXbQlQLrevmD9pq2lCjvkwrJY0za-qys8gZthFBrp_9nfxYbs
+RestApi :https://imsakiyah-api.santrikoding.com/?fbclid=IwAR2xkS3e3CyXbQlQLrevmD9pq2lCjvkwrJY0za-qys8gZthFBrp_9nfxYbs
 
 # Getting Started with Create React App
 

@@ -15,51 +15,56 @@ function App() {
       });
   }, []);
   return (
-    <Container className="mt-4">
-      <h1 className="text-center">Jadwal</h1>
-      <h1 className="text-center">Imsakiyah</h1>
-      <h1 className="text-center">Kota Temanggung</h1>
-      <h1 className="text-center"> Ramadhan 1443 H/2022 M</h1>
-      <Row className="mt-2">
+    <Container
+      className="mt-2 mb-4 bg-success
+    "
+    >
+      <h1 className="text-center text-white">Jadwal</h1>
+      <h1 className="text-center text-white">Imsakiyah</h1>
+      <h2 className="text-center text-white">Kota Temanggung</h2>
+      <h2 className="text-center text-white"> Ramadhan 1443 H/2022 M</h2>
+      <Row className="mt-2 mb-2">
         <Col md="{12}">
           <Card className="border-0 rounded shadow-sm">
             <Card.Body>
-              <Table responsive="sm" striped bordered hover className="mb-2">
-                <thead className="mb-2">
-                  <tr>
-                    <th className="text-center">No.</th>
-                    <th className="text-center">Ramadhan</th>
-                    <th className="text-center">Tanggal</th>
-                    <th className="text-center">Imsyak</th>
-                    <th className="text-center">Terbit</th>
-                    <th className="text-center">Subuh</th>
-                    <th className="text-center">Dhuha</th>
-                    <th className="text-center">Dzuhur</th>
-                    <th className="text-center">Ashar</th>
-                    <th className="text-center">Maghrib</th>
-                    <th className="text-center">Isya</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {times.map((time, index) => (
-                    <tr key={time.id}>
-                      <td className="text-center">{index + 1}</td>
-                      <td className="text-center">
-                        {index + 1} Ramadhan 1443 H
-                      </td>
-                      <td className="text-center">{time.date}</td>
-                      <td className="text-center">{time.imsak}</td>
-                      <td className="text-center">{time.syuruk}</td>
-                      <td className="text-center">{time.subuh}</td>
-                      <td className="text-center">{time.dhuha}</td>
-                      <td className="text-center">{time.dzuhur}</td>
-                      <td className="text-center">{time.ashar}</td>
-                      <td className="text-center">{time.maghrib}</td>
-                      <td className="text-center">{time.isya}</td>
+              <div className="table-responsive-sm mb-2">
+                <Table striped bordered hover className="table mb-2">
+                  <thead className="mb-2 table-success">
+                    <tr>
+                      <th className="text-center">No.</th>
+                      <th className="text-center">Ramadhan</th>
+                      <th className="text-center">Tanggal</th>
+                      <th className="text-center">Imsyak</th>
+                      <th className="text-center">Terbit</th>
+                      <th className="text-center">Subuh</th>
+                      <th className="text-center">Dhuha</th>
+                      <th className="text-center">Dzuhur</th>
+                      <th className="text-center">Ashar</th>
+                      <th className="text-center">Maghrib</th>
+                      <th className="text-center">Isya</th>
                     </tr>
-                  ))}
-                </tbody>
-              </Table>
+                  </thead>
+                  <tbody>
+                    {times.map((time, index) => (
+                      <tr key={time.id}>
+                        <td className="text-center">{index + 1}</td>
+                        <td className="text-center">
+                          {index + 1} Ramadhan 1443 H
+                        </td>
+                        <td className="text-center">{time.date}</td>
+                        <td className="text-center">{time.imsak}</td>
+                        <td className="text-center">{time.syuruk}</td>
+                        <td className="text-center">{time.subuh}</td>
+                        <td className="text-center">{time.dhuha}</td>
+                        <td className="text-center">{time.dzuhur}</td>
+                        <td className="text-center">{time.ashar}</td>
+                        <td className="text-center">{time.maghrib}</td>
+                        <td className="text-center">{time.isya}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              </div>
             </Card.Body>
           </Card>
         </Col>
