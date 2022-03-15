@@ -32,13 +32,13 @@ function App() {
       className="mt-3 mb-3 bg-success
     "
     >
-      <div className="text-center">
+      <div className="p-3 text-center ">
         <h1 className="text-white">Jadwal</h1>
         <h1 className="text-white">Imsakiyah</h1>
         <h2 className="text-white">Kota Temanggung</h2>
         <h2 className="text-white">Ramadhan 1443 H/2022 M</h2>
       </div>
-      <Row className="mt-2 mb-2">
+      <Row className="mt-4 mb-2">
         <Col md="{12}">
           <Card className="mb-4 border-0 rounded shadow-sm">
             <Card.Body className="mb-1">
