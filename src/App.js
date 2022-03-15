@@ -28,10 +28,7 @@ function App() {
     return <h1 className="text-center text-success"> Loading ...</h1>;
   if (error) console.log(error);
   return (
-    <Container
-      className="mt-3 mb-3 bg-success
-    "
-    >
+    <Container className="mt-3 mb-3 bg-success">
       <div className="p-3 text-center ">
         <h1 className="text-white">Jadwal</h1>
         <h1 className="text-white">Imsakiyah</h1>
