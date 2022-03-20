@@ -26,7 +26,7 @@ function App() {
 
   if (loading)
     return <h1 className="text-center text-success"> Loading ...</h1>;
-  if (error) console.log(error);
+  if (error) console.error("Error Fetching Data in", error);
   return (
     <Container className="mt-3 mb-3 bg-success">
       <div className="p-3 text-center ">
