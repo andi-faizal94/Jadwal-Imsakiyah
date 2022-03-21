@@ -45,7 +45,7 @@ function App() {
                     <th className="text-center">No.</th>
                     <th className="text-center">Ramadhan</th>
                     <th className="text-center">Tanggal</th>
-                    <th className="text-center">Imsyak</th>
+                    <th className="text-center">Imsak</th>
                     <th className="text-center">Subuh</th>
                     <th className="text-center">Terbit</th>
                     <th className="text-center">Dhuha</th>
