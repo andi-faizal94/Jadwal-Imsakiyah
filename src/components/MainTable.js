@@ -43,7 +43,7 @@ function MainTable() {
             <Card.Body className="mb-1">
               <Table responsive striped bordered hover className="table">
                 <MainHead />
-                <MainCell times={times} />
+                <MainCell data={times} />
               </Table>
             </Card.Body>
           </Card>
