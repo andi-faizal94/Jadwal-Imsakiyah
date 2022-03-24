@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Container, Row, Col, Table } from "react-bootstrap";
+import Title from "./Title";
 import MainHead from "./MainHead";
 import MainCell from "./MainCell";
 
@@ -31,12 +32,7 @@ function MainTable() {
   if (error) console.error("Error Fetching Data in", error);
   return (
     <Container className="mt-3 mb-3 bg-success">
-      <div className="p-3 text-center ">
-        <h1 className="text-white">Jadwal</h1>
-        <h1 className="text-white">Imsakiyah</h1>
-        <h2 className="text-white">Kota Temanggung</h2>
-        <h2 className="text-white">Ramadhan 1443 H/2022 M</h2>
-      </div>
+      <Title />
       <Row className="mt-4 mb-2">
         <Col md="{12}">
           <Card className="mb-4 border-0 rounded shadow-sm">
