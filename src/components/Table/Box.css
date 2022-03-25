@@ -28,11 +28,11 @@
   bottom: -50%;
   background: rgb(41, 216, 114);
   clip-path: polygon(0 0, 0 100%, 100% 0, 100% 100%);
-  animation: rotate 1s linear infinite;
+  animation: rotate 2s linear infinite;
 }
 @keyframes rotate {
   50% {
-    transform: rotate(90deg) scaleX(1);
+    transform: rotate(90deg) scaleX(0.3);
   }
   100% {
     transform: rotate(180deg);
