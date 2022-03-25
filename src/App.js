@@ -1,5 +1,5 @@
 import React from "react";
-import MainTable from "./components/MainTable";
+import MainTable from "./components/Table/MainTable";
 
 function App() {
   return (

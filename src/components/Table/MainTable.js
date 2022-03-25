@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Container, Row, Col, Table } from "react-bootstrap";
-import Title from "./Title";
-import MainHead from "./MainHead";
-import MainCell from "./MainCell";
-
+import Title from "../Title";
+import MainHead from "../MainHead";
+import MainCell from "../MainCell";
+import "../Table/Box.css";
 function MainTable() {
   const [times, setTimes] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -28,7 +28,12 @@ function MainTable() {
   }, []);
 
   if (loading)
-    return <h1 className="text-center text-success"> Loading ...</h1>;
+    return (
+      <div className="d-flex flex-column justify-content-center align-items-center main">
+        <div className="box"></div>
+        <h1 className="text-center text-success"> Loading ...</h1>
+      </div>
+    );
   if (error) console.error("Error Fetching Data in", error);
   return (
     <Container className="mt-3 mb-3 bg-success">
