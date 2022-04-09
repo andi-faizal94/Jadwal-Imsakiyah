@@ -35,7 +35,10 @@ function MainTable() {
             <div className="loader loader-inner"></div>
           </div>
         </div>
-        <h1 className="text-center text-success"> Loading ...</h1>
+        <h1 className="p text-center text-success" data-text="Loading ..">
+          {" "}
+          Loading ...
+        </h1>
       </div>
     );
   if (error) console.error("Error Fetching Data in", error);
