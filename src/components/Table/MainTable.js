@@ -36,7 +36,6 @@ function MainTable() {
           </div>
         </div>
         <h1 className="p text-center text-success" data-text="Loading ..">
-          {" "}
           Loading ...
         </h1>
       </div>
