@@ -30,7 +30,11 @@ function MainTable() {
   if (loading)
     return (
       <div className="d-flex flex-column justify-content-center align-items-center main">
-        <div className="box"></div>
+        <div className="loader-wrapper">
+          <div className="loader">
+            <div className="loader loader-inner"></div>
+          </div>
+        </div>
         <h1 className="text-center text-success"> Loading ...</h1>
       </div>
     );
