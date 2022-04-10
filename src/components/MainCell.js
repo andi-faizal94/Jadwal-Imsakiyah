@@ -4,7 +4,7 @@ function MainCell({ data }) {
   return (
     <tbody>
       {data.map((item, index) => (
-        <tr key={item.toString()} value={item}>
+        <tr key={item.date} value={item}>
           <td className="text-center">{index}</td>
           <td className="text-center">{index} Ramadhan 1443 H</td>
           <td className="text-center">{item.date}</td>
