@@ -23,6 +23,7 @@
   color: #36f372;
   -webkit-text-stroke: 0vw #dde1f3;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   border-right: 3px solid #36f372;
   overflow: hidden;
   animation: animate 3.5s linear infinite;
